@@ -1,297 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Brian Ulatowski Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- dev icons -->
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Raleway|Alata|Roboto|Open+Sans:300&display=swap"
         rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet"
-        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <meta name="theme-color" content="#090a20" />
 
-
 </head>
+
 <body>
-    <header>
-        <div class="menu-toggler">
-            <div class="bar half start"></div>
-            <div class="bar"></div>
-            <div class="bar half end"></div>
-        </div>
-        <nav class="top-nav">
-            <ul class="nav-list">
-                <li>
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li>
-                    <a href="#about" class="nav-link">About</a>
-                </li>
-                <li>
-                    <a href="#services" class="nav-link">Services</a>
-                </li>
-                <li>
-                    <a href="#portfolio" class="nav-link">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#experience" class="nav-link">Experience</a>
-                </li>
-                <li>
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="landing-text">
-            <h1>Brian Liang Ulatowski</h1>
-            <h6>Full Stack Developer</h6>
-        </div>
-    </header>
-    <section class="about" id="about">
-        <div class="container">
-            <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
-                <img src="assets/images/profile.jpg" alt="">
-            </div>
-            <div class="about-details" data-aos="fade-left" data-aos-delay="600">
-                <div class="about-heading">
-                    <h1>About</h1>
-                    <h6>Myself</h6>
-                </div>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Voluptatem aliquid fugiat, deleniti iure dolorum provident 
-                    delectus, quae quaerat aut molestiae doloremque aspernatur
-                    delectus, quae quaerat aut molestiae doloremque aspernatur
-                    delectus, quae quaerat aut molestiae doloremque aspernatur
-                    delectus, quae quaerat aut molestiae doloremque aspernatur
-                    delectus, quae quaerat aut molestiae doloremque aspernatur 
-                    iusto nulla impedit eaque enim quia illum accusantium?
-                </p>
-                <div class="social-media">
-                    <ul class="nav-list">
-                        <li>
-                            <a href="https://www.linkedin.com/in/brian-ulatowski/" class="icon-link">
-                                <i class="fab fa-linkedin-square"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/blu19" class="icon-link">
-                                <i class="fab fa-github-square"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section class="services" id="services">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Services</h1>
-                <h6>What I can do for you</h6>
-            </div>
-            <div class="my-skills">
-                <div class="skill" data-aos="fade-in" data-aos-delay="300">
-                    <div class="icon-container">
-                        <i class="fas fa-layer-group"></i>
-                    </div>
-                    <h1>Web Design</h1>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                </div>
-                <div class="skill" data-aos="fade-in" data-aos-delay="600">
-                    <div class="icon-container">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h1>Web Development</h1>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                </div>
-                <div class="skill" data-aos="fade-in" data-aos-delay="900">
-                    <div class="icon-container">
-                        <i class="fas fa-chart-bar"></i>
-                    </div>
-                    <h1>Product Strategy</h1>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- <div class="skillicons">
-
-    <div class="skillicon-box">
-        <i class="devicon-html5-plain colored"></i>
-        <span class="skillicon-title">
-            <p>HTML5</p>
-        </span>
-    </div>
-
-    <div class="skillicon-box">
-        <i class="devicon-css3-plain colored"></i>
-        <span class="skillicon-title">
-            <p>CSS3</p>
-        </span>
-    </div>
-    
-    <div class="skillicon-box">
-        <i class="devicon-bootstrap-plain colored"></i>
-        <span class="skillicon-title">
-            <p>Bootstrap</p>
-        </span>
-    </div>
-    
-    <div class="skillicon-box">
-        <i class="devicon-javascript-plain colored"></i>
-        <span class="skillicon-title">
-            <p>Javascript</p>
-        </span>
-    </div>
-    
-    <div class="skillicon-box">
-        <i class="devicon-jquery-plain colored"></i>
-        <span class="skillicon-title">
-            <p>jQuery</p>
-        </span>
-    </div>
-    </div> -->
-
-    <section class="portfolio" id="portfolio">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Portfolio</h1>
-                <h6>View some of my recent work</h6>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
-                    <img src="assets/images/portitem1.jpg" alt="">
-                </div>
-                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
-                    <h6>Web Development</h6>
-                    <h1>Blog Website</h1>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                    <a href="#" class="cta">View Details</a>
-                </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
-                    <h6>Web Design</h6>
-                    <h1>Product Layout</h1>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                    <a href="#" class="cta">View Details</a>
-                </div>
-                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
-                    <img src="assets/images/portitem2.jpg" alt="">
-                </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
-                    <img src="assets/images/portitem3.jpg" alt="">
-                </div>
-                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
-                    <h6>Web Design</h6>
-                    <h1>Product Sketch</h1>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                    <a href="#" class="cta">View Details</a>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="experience" id="experience">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Work Experience</h1>
-                <h6>Past and current jobs</h6>
-            </div>
-            <div class="timeline" data-aos="fade-down" data-aos-delay="300">
-                <ul>
-                    <li class="date" data-date="2015 - Present">
-                        <h1>Google</h1>
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
+    <div>
+        <header>
+            <!-- Navbar -->
+            <nav class="navbar">
+                <span class="navbar-toggle" id="js-navbar-toggle">
+                    <i class="fas fa-bars"></i>
+                </span>
+                <a href="" class=></a>
+                <ul class="main-nav" id="js-menu">
+                    <li>
+                        <a href="index.html" class="nav-links">Home</a>
                     </li>
-                    <li class="date" data-date="2008 - 2011">
-                        <h1>Facebook</h1>
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
+                    <li>
+                        <a href="#about" class="nav-links">About</a>
                     </li>
-                    <li class="date" data-date="2002 - 2007">
-                        <h1>Microsoft</h1>
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
+                    <li>
+                        <a href="#services" class="nav-links">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="nav-links">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#personal" class="nav-links">Personal</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-links">Contact</a>
                     </li>
                 </ul>
-            </div>
-        </div>
-    </section>
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Contact</h1>
-                <h6>Let's work together</h6>
-            </div>
-            <form action="" data-aos="fade-up" data-aos-delay="300">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name..." required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email..." required>
-                <label for="service">Services:</label>
-                <select name="services" id="service">
-                    <option value="">Web Design</option>
-                    <option value="">Web Development</option>
-                    <option value="">Web Design/Development</option>
-                    <option value="">Tutoring</option>
-                </select>
-                <label for="subject">Subject:</label>
-                <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
-                <input type="submit" value="Submit">
-            </form>
-        </div>
-    </section>
-    <footer class="copyright">
-        <div class="up" id="up">
-            <i class="fas fa-chevron-up"></i>
-        </div>
-        <p>&copy; 2020 Brian Liang Ulatowski</p>
-    </footer>
+            </nav>
 
-<script>
-    AOS.init();
-</script>
+
+            <div class="landing-text">
+                <h1>Brian Ulatowski</h1> <br>
+
+                <!-- animated h6 -->
+                <h6>Full Stack
+                    <span class="txt-type" data-wait=1000ms data-words='["Developer"]'></span>
+                </h6>
+
+                <a class="landingBtn" href="#portfolio">
+                    <p> See my work! </p>
+                </a>
+
+            </div>
+        </header>
+
+        <!-- about section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="profile-img" data-aos="fade-in" data-aos-delay="100">
+                    <img src="assets/images/profile.jpg" alt="profile picture">
+                </div>
+                <div class="about-details" data-aos="fade-in" data-aos-delay="200">
+                    <div class="about-heading">
+                        <h1>About</h1>
+                        <h6>Me</h6>
+                    </div>
+                    <p>
+                        Welcome everyone! I look forward to meeting you if I haven't already. My name is Brian Ulatowski and this is my first
+                        basic portfolio website. I graduated from Cal State University Northridge in 2005 with a BA in Liberal Studies and a
+                        focus in teaching math and a Teaching Credential. I have taught for 14 years, in public and private schools, including
+                        charter schools and internationally in Cambodia, Vietnam and Costa Rica. I've taught mostly math subjects, but have also
+                        taught English as a Second Language, History, Language Arts, Science, Humanities, as well as other stuff. Currently, I'm
+                        taking a full stack web development program via Trilogy at UCLA Extension. My hope is that I can transition into a
+                        career in web development.
+                        <br>
+                        <br>
+                        When I'm not working, I enjoy spending time with family and friends, especially my wife. I enjoy traveling to different
+                        places, especially places that speak different languages and have different cultures than what we are used to here in
+                        the US. I've had the privilege of traveling through more than 25 different countries. Usually budget travel. Once flew
+                        round trip to Guatemala from Los Angeles for $72 including tax. I've been turned down for a job because I didn't look
+                        'American enough.' I've moved a lot more than most; more times than years I've been alive. I do my best to stay active
+                        and get in exercise several times each week, as it helps me to maintain my sanity. I'm extremely afraid of heights. I am
+                        a very picky eater, but I love to eat and I also love to cook, but my actual cooking skills are still progressing. I
+                        enjoy watching movies and shows, especially realistic dramas or comedies. I care about people and the community around
+                        me.
+                        <br>
+                        <br>
+                        This hopefully gives you a little insight about me. Please feel free to reach out to ask me any questions about myself
+                        or web development stuff.
+                    </p>
+                    <div class="social-media">
+                        <ul class="nav-list">
+                            <li>
+                                <a target="_blank" href="https://www.linkedin.com/in/brian-ulatowski/" class="icon-link"><i
+                                        class="fab fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://github.com/blu19" class="icon-link"><i
+                                        class="fab fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <!-- /about section -->
+
+
+
+        <!-- services section -->
+        <section class="services" id="services">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Services</h1>
+                    <h6>What I can do for you</h6>
+                </div>
+
+                <div class="my-skills">
+
+                    <div class="skill" data-aos="fade-in" data-aos-delay="100">
+                        <div class="icon-container">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                        <h1>Web Design</h1>
+                        <p>
+                            This hopefully gives you a little insight about me. Please feel free to reach out to ask me any questions about myself
+                            or web development stuff.
+                        </p>
+                    </div>
+
+                    <div class="skill" data-aos="fade-in" data-aos-delay="200">
+                        <div class="icon-container">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h1>Web Development</h1>
+                        <p>
+                            This hopefully gives you a little insight about me. Please feel free to reach out to ask me any questions about myself
+                            or web development stuff.
+                        </p>
+                    </div>
+
+                    <div class="skill" data-aos="fade-in" data-aos-delay="300">
+                        <div class="icon-container">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h1>Web Apps </h1>
+                        <p>
+                            This hopefully gives you a little insight about me. Please feel free to reach out to ask me any questions about myself
+                            or web development stuff.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="skillIcons">
+
+
+                    <div class="skillIcon-box">
+                        <i class="devicon-react-plain colored"></i>
+                        <span class="skillIcon-title">
+                            <p>React</p>
+                        </span>
+                    </div>
+
+                    <div class="skillIcon-box">
+                        <i class="devicon-javascript-plain colored"></i>
+                        <span class="skillIcon-title">
+                            <p>Javascript</p>
+                        </span>
+                    </div>
+
+                    <div class="skillIcon-box">
+                        <i class="devicon-css3-plain colored"></i>
+                        <span class="skillIcon-title">
+                            <p>CSS3</p>
+                        </span>
+                    </div>
+
+                    <div class="skillIcon-box">
+                        <i class="devicon-bootstrap-plain colored"></i>
+                        <span class="skillIcon-title">
+                            <p>Bootstrap</p>
+                        </span>
+                    </div>
+
+                    <div class="skillIcon-box">
+                        <i class="devicon-jquery-plain colored"></i>
+                        <span class="skillIcon-title">
+                            <p>jQuery</p>
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- services section -->
+
+
+
+
+        <!-- portfolio section -->
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Portfolio</h1>
+                    <h6>What I've done</h6>
+                </div>
+
+
+                <!-- port1 -->
+                <div class="portfolio-item">
+
+
+                    <div class="portfolio-description">
+                        <h1>Cocktails?</h1>
+                        <a href="https://guarded-everglades-88887.herokuapp.com/" target="_blank" class="cta">Visit site <i
+                                class="far fa-eye"></i></a> <br>
+                        <a href="https://github.com/blu19/Quarantini" target="_blank" class="cta">View Code <i
+                                class="fab fa-github"></i></a> <br>
+
+
+                        <a href="javascript:void(0)" class="cta expandDetails">
+                            More info<br>
+                            <div class="arrowDown">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="arrowUp">
+                                <i class="fas fa-chevron-up"></i>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="portfolio-img" data-aos="fade-in" data-aos-delay="100">
+                        <img src="assets/images/cocktailsApp.jpeg" alt="">
+                    </div>
+
+                    <div class="portfolio-long">
+
+                        <img class="extrapic" align="right" src="assets/images/membersPic.jpeg" alt="">
+
+                        <div class="subheading">GOAL:</div>
+                        <p>
+                            Cocktails? Is a mobile responsive web application built from scratch by four collaborators, designed to give users
+                            different ideas for drinks based on a given main ingredient. Using a server side API, users can use it when out and
+                            wondering what they should order or while at home, what they can make.
+                            <br>
+                            <br>
+                            The user inputs an ingredient and can search through drink options that include that ingredient. Then they are provided
+                            the drink name, instructions on how to make the drink, a recipe with amounts of various ingredients, and a photo of the
+                            drink. Users can ‘like’ and save drinks they enjoy, which then pins the drink name on the side and they can easily
+                            return to the drink whenever they would like. The app is hosted by Heroku with cloud based database JawsDB, that saves
+                            user data.
+                            <br>
+                            <br>
+                            The landing page is a short video, has buttons linking to signup and login pages. The signup page includes inputs for
+                            email, password, date of birth and a username. The email includes a validator to ensure an email is entered. The
+                            password has a validator to ensure that the password entered is within the necessary range of the number of characters.
+                            The date of birth has a validator to ensure users are over 21 in order to use the app, and if not, sends them to a fun
+                            age appropriate page. And the app features a logout function so users can ensure their liked drinks are protected.
+                            <img class="extrapic" align="right" src="assets/images/signUp.jpeg" alt="">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <img class="extrapic" align="right" src="assets/images/login.jpeg" alt="">
+                        </p>
+
+
+                    </div>
+                </div>
+                <!-- /port1 -->
+
+                <!-- port2 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-img" data-aos="fade-in" data-aos-delay="100">
+                        <img src="assets/images/inOrOutLanding.png" alt="">
+                    </div>
+
+                    <div class="portfolio-description">
+                        <h1>In or Out?</h1>
+
+                        <a href="https://abautista3712.github.io/In-or-Out/" target="_blank" class="cta">Visit site <i
+                                class="far fa-eye"></i></a> <br>
+                        <a href="https://github.com/abautista3712/In-or-Out" target="_blank" class="cta">View Github <i
+                                class="fab fa-github"></i></a> <br>
+                        <a href="javascript:void(0)" class="cta expandDetails">
+                            More info<br>
+
+                            <div class="arrowDown">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+
+                            <div class="arrowUp">
+                                <i class="fas fa-chevron-up"></i>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="break"></div> <!-- break -->
+
+                    <div class="portfolio-long">
+
+                        <img class="extrapic" align="right" src="assets/images/outOrInLanding.png" alt="">
+
+                        <div class="subheading">GOAL:</div>
+                        <p>
+                            In or Out is a website application built from scratch designed to simplify an everyday problem. Utilizing integrated
+                            data from several server-side API requests, "In or Out" simplifies the decision making between creating meal
+                            alternatives or finding a great local eatery at a desired location.
+                            <br>
+                            <br>
+                            If "In" is chosen, the user can input a food item which will then provide several recipe options. Each result displays
+                            the amount of time it takes to complete, dish rating, serving size, and a link displaying the step by step process to
+                            complete the meal.
+                            <br>
+                            <br>
+                            <img class="extrapic extrapic3" align="right" src="assets/images/inRecipes.png" alt="">
+                            If "Out" is chosen, the user is prompted to input both a specific food and/or the desired location they wish to search.
+                            Once entered, the display will provide several options depending on the original input. Each item listed will include
+                            the name of the location, average rating, address, phone number, and a link redirecting the user to customer reviews.
+                            <br>
+                            <br>
+                            In or Out is hosted GitHub and is designed to be responsive.
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <img class="extrapic extrapic4" align="right" src="assets/images/outRestaurants.png" alt="">
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- /port2 -->
+
+
+            </div>
+        </section>
+        <!-- /portfolio section -->
+
+
+
+        <!-- personal section -->
+        <section class="personal" id="personal">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Personal</h1>
+                    <h6>Who is the person behind the keyboard?</h6>
+                    <img style="margin-top: 1rem" width="300px" src="" alt="">
+
+                </div>
+
+                <div class="bio">
+
+                    <p>
+                        Welcome everyone! I look forward to meeting you if I haven't already. My name is Brian Ulatowski and this is my first
+                        basic portfolio website. I graduated from Cal State University Northridge in 2005 with a BA in Liberal Studies and a
+                        focus in teaching math and a Teaching Credential. I have taught for 14 years, in public and private schools, including
+                        charter schools and internationally in Cambodia, Vietnam and Costa Rica. I've taught mostly math subjects, but have also
+                        taught English as a Second Language, History, Language Arts, Science, Humanities, as well as other stuff. Currently, I'm
+                        taking a full stack web development program via Trilogy at UCLA Extension. My hope is that I can transition into a
+                        career in web development.
+                    </p>
+                    <br>
+                    <p>
+                        Welcome everyone! I look forward to meeting you if I haven't already. My name is Brian Ulatowski and this is my first
+                        basic portfolio website. I graduated from Cal State University Northridge in 2005 with a BA in Liberal Studies and a
+                        focus in teaching math and a Teaching Credential. I have taught for 14 years, in public and private schools, including
+                        charter schools and internationally in Cambodia, Vietnam and Costa Rica. I've taught mostly math subjects, but have also
+                        taught English as a Second Language, History, Language Arts, Science, Humanities, as well as other stuff. Currently, I'm
+                        taking a full stack web development program via Trilogy at UCLA Extension. My hope is that I can transition into a
+                        career in web development.
+                    </p> <br>
+
+
+                    <ul>
+                        <li>Random fact</li>
+                        <li>Random fact</li>
+                        <li>Random fact</li>
+                        <li>Random fact</li>
+                        <li>Random fact</li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- /personal section -->
+
+        <!-- contact section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Contact</h1>
+                    <h6>Let's work together! Get in touch: <a id="email"
+                            href="brian.ulatowski@gmail.com">brian.ulatowski@gmail.com</a> </h6>
+                </div>
+
+
+
+
+            </div>
+        </section>
+
+        <!-- /contact section -->
+
+
+        <footer class="copyright">
+            <div id="up" class="up">
+                <i class="fas fa-chevron-up"></i>
+            </div>
+            <p>&copy;Brian Ulatowski 2020</p>
+        </footer>
+
+    </div>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- aos -->
+    <script>
+        AOS.init();
+    </script>
+    <!-- end scripts -->
+
+
 </body>
+
 </html>
